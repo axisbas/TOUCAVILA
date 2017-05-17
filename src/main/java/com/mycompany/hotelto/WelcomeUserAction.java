@@ -23,7 +23,7 @@ public class WelcomeUserAction {
 
     // all struts logic here
     public String execute() {
-
+        System.out.println("Hola");
         return "SUCCESS";
 
     }
